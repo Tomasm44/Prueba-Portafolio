@@ -1,0 +1,65 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Config. global */
+
+/* Prte 1 Header */
+.container {
+    max-width: 1000px;
+    width: 900px;
+    margin: 0% auto;
+    padding: 2%;
+    border: 7px solid purple; 
+}
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.superior h1 {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+
+.tomas {
+    border-radius: 180px;
+    height: 240px;
+    width: 240px;
+}
+
+/* Prte 2 Header */
+.capa2 {
+    margin-top: 30px;
+}
+.inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior h1 {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+
+.inferior p {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: column
+}
+
+.sobremi h1 {
+    justify-content: center;
+}
+
+.sobremi p {
+    align-items: flex-end;
+}
